@@ -1,0 +1,17 @@
+spring:
+  application:
+    name: todo-app
+  datasource:
+    url: jdbc:postgresql://dpg-ch1qjel269v61fa7aaog-a.singapore-postgres.render.com:5432/rean
+    password: 3AOPwkmundHGvpIf14cKHsgM27lBTYYf
+    username: rean
+    driver-class-name: org.postgresql.Driver
+  jpa:
+    hibernate:
+      ddl-auto: update
+    properties:
+      hibernate:
+        dialect: org.hibernate.dialect.PostgreSQLDialect
+        format_sql: true
+    show-sql: true
+
